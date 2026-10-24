@@ -1,0 +1,139 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2020" height="1080" viewBox="0 0 2020 1080" font-family="Helvetica, Arial, sans-serif"><rect x="0" y="0" width="2020" height="1080" fill="#ffffff"/>
+<defs>
+<marker id="arrow-grey" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3 L0,6 Z" fill="#37474F"/></marker>
+<marker id="arrow-gold" markerWidth="9" markerHeight="9" refX="7" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L7,3 L0,6 Z" fill="#B8860B"/></marker>
+</defs>
+<text x="30" y="34" font-size="20" fill="#1b1b1b" font-weight="bold" text-anchor="start">Cafe AI Order Assistant — Architecture After the Bedrock Extension</text>
+<text x="30" y="56" font-size="13" fill="#555555" font-weight="normal" text-anchor="start">Base lab resources in black / blue / green / purple. Chatbot additions outlined in gold.</text>
+<rect x="34" y="88" width="30" height="24" rx="3" fill="#455A64"/>
+<text x="49" y="128" font-size="11" fill="#1b1b1b" font-weight="normal" text-anchor="middle">Admin</text>
+<circle cx="150" cy="100" r="17" fill="#ffffff" stroke="#37474F" stroke-width="2"/>
+<text x="150" y="105" font-size="15" fill="#1b1b1b" font-weight="normal" text-anchor="middle">☁</text>
+<text x="172" y="97" font-size="10" fill="#1b1b1b" font-weight="normal" text-anchor="start">EC2 Instance</text>
+<text x="172" y="109" font-size="10" fill="#1b1b1b" font-weight="normal" text-anchor="start">Connect</text>
+<line x1="64" y1="100" x2="130" y2="100" stroke="#37474F" stroke-width="2.2" marker-end="url(#arrow-grey)"/>
+<rect x="276" y="88" width="30" height="24" rx="3" fill="#455A64"/>
+<text x="291" y="128" font-size="11" fill="#1b1b1b" font-weight="normal" text-anchor="middle">Café visitor</text>
+<line x1="291" y1="112" x2="291" y2="165" stroke="#37474F" stroke-width="2.2" marker-end="url(#arrow-grey)"/>
+<rect x="20" y="165" width="1980" height="895" rx="6" fill="none" stroke="#232F3E" stroke-width="2"/>
+<text x="36" y="190" font-size="14" fill="#232F3E" font-weight="bold" text-anchor="start">AWS Cloud</text>
+<circle cx="291" cy="222" r="22" fill="#ffffff" stroke="#7A3FC2" stroke-width="2.5"/>
+<text x="291" y="227" font-size="11" fill="#7A3FC2" font-weight="bold" text-anchor="middle">IGW</text>
+<text x="291" y="262" font-size="11" fill="#1b1b1b" font-weight="normal" text-anchor="middle">Internet gateway</text>
+<line x1="291" y1="112" x2="291" y2="200" stroke="#37474F" stroke-width="2.2" marker-end="url(#arrow-grey)"/>
+<rect x="1160" y="192" width="210" height="56" rx="8" fill="#ffffff" stroke="#B8860B" stroke-width="2.2"/>
+<rect x="1169" y="204.0" width="32" height="32" rx="6" fill="#B8860B"/>
+<text x="1185.0" y="224.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">API</text>
+<text x="1210" y="216.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">API Gateway (HTTP)</text>
+<text x="1210" y="233.0" font-size="10.5" fill="#555555" font-weight="normal" text-anchor="start">public  POST /chat</text>
+<rect x="1324" y="198" width="40" height="16" rx="8" fill="#B8860B"/>
+<text x="1344" y="210" font-size="9" fill="#ffffff" font-weight="bold" text-anchor="middle">NEW</text>
+<rect x="60" y="300" width="1670" height="700" rx="10" fill="none" stroke="#7A3FC2" stroke-width="2.5"/>
+<text x="76" y="326" font-size="14" fill="#7A3FC2" font-weight="bold" text-anchor="start">Cafe VPC – 10.200.0.0/20</text>
+<rect x="90" y="350" width="420" height="600" rx="10" fill="#F1F8F2" stroke="#2E7D32" stroke-width="2"/>
+<text x="106" y="376" font-size="13" fill="#2E7D32" font-weight="bold" text-anchor="start">Café Public Subnet 1</text>
+<text x="106" y="394" font-size="11" fill="#2E7D32" font-weight="normal" text-anchor="start">10.200.0.0/24</text>
+<rect x="360" y="370" width="130" height="46" rx="8" fill="#ffffff" stroke="#D35400" stroke-width="1.6"/>
+<rect x="369" y="377.0" width="32" height="32" rx="6" fill="#D35400"/>
+<text x="385.0" y="397.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">CLI</text>
+<text x="410" y="397.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">CLI Host</text>
+<rect x="110" y="436" width="380" height="330" rx="10" fill="#FBEDEC" stroke="#C0392B" stroke-width="2"/>
+<text x="124" y="458" font-size="12" fill="#C0392B" font-weight="bold" text-anchor="start">CafeSecurityGroup</text>
+<rect x="126" y="472" width="348" height="270" rx="10" fill="#FDF1E8" stroke="#D35400" stroke-width="2"/>
+<text x="140" y="494" font-size="12" fill="#D35400" font-weight="bold" text-anchor="start">CafeInstance</text>
+<rect x="140" y="506" width="320" height="56" rx="8" fill="#ffffff" stroke="#2E7D32" stroke-width="1.6"/>
+<rect x="149" y="518.0" width="32" height="32" rx="6" fill="#2E7D32"/>
+<text x="165.0" y="538.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">WEB</text>
+<text x="190" y="530.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">Café web application</text>
+<text x="190" y="547.0" font-size="10.5" fill="#555555" font-weight="normal" text-anchor="start">LAMP (Apache/PHP) + chat widget JS</text>
+<rect x="154" y="628" width="84" height="34" fill="#E5E5E5" stroke="#9AA0A6" stroke-width="1.5"/>
+<ellipse cx="196" cy="628" rx="42" ry="12" fill="#EDEDED" stroke="#9AA0A6" stroke-width="1.5"/>
+<ellipse cx="196" cy="662" rx="42" ry="12" fill="#E5E5E5" stroke="#9AA0A6" stroke-width="1.5"/>
+<text x="256" y="636" font-size="10" fill="#9AA0A6" font-weight="normal" text-anchor="start">cafe_db MariaDB</text>
+<text x="256" y="652" font-size="9.5" fill="#9AA0A6" font-weight="normal" text-anchor="start">(local – retired after migration)</text>
+<rect x="550" y="350" width="460" height="600" rx="10" fill="none" stroke="#6C7A89" stroke-width="1.5" stroke-dasharray="6,4"/>
+<text x="564" y="370" font-size="12" fill="#6C7A89" font-weight="bold" text-anchor="start">Availability Zone 1</text>
+<rect x="566" y="390" width="428" height="170" rx="10" fill="#EAF1FB" stroke="#1565C0" stroke-width="2"/>
+<text x="580" y="412" font-size="12" fill="#1565C0" font-weight="bold" text-anchor="start">Cafe Private Subnet 1</text>
+<text x="580" y="430" font-size="11" fill="#1565C0" font-weight="normal" text-anchor="start">10.200.2.0/23</text>
+<rect x="582" y="442" width="396" height="100" rx="10" fill="#FBEDEC" stroke="#C0392B" stroke-width="2"/>
+<text x="594" y="460" font-size="11" fill="#C0392B" font-weight="bold" text-anchor="start">CafeDatabaseSG</text>
+<rect x="596" y="470" width="368" height="56" rx="8" fill="#ffffff" stroke="#1565C0" stroke-width="1.6"/>
+<rect x="605" y="482.0" width="32" height="32" rx="6" fill="#1565C0"/>
+<text x="621.0" y="502.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">RDS</text>
+<text x="646" y="494.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">CafeDBInstance</text>
+<text x="646" y="511.0" font-size="10.5" fill="#555555" font-weight="normal" text-anchor="start">Amazon RDS – MariaDB</text>
+<rect x="1050" y="350" width="460" height="600" rx="10" fill="none" stroke="#6C7A89" stroke-width="1.5" stroke-dasharray="6,4"/>
+<text x="1064" y="370" font-size="12" fill="#6C7A89" font-weight="bold" text-anchor="start">Availability Zone 2</text>
+<rect x="1066" y="390" width="428" height="540" rx="10" fill="#EAF1FB" stroke="#1565C0" stroke-width="2"/>
+<text x="1080" y="412" font-size="12" fill="#1565C0" font-weight="bold" text-anchor="start">Cafe Private Subnet 2</text>
+<text x="1080" y="430" font-size="11" fill="#1565C0" font-weight="normal" text-anchor="start">10.200.10.0/23</text>
+<rect x="1082" y="442" width="396" height="470" rx="10" fill="#FFF8E8" stroke="#B8860B" stroke-width="2"/>
+<text x="1094" y="462" font-size="11" fill="#B8860B" font-weight="bold" text-anchor="start">CafeChatbotSG  (NEW)</text>
+<rect x="1096" y="472" width="368" height="56" rx="8" fill="#ffffff" stroke="#B8860B" stroke-width="2.2"/>
+<rect x="1105" y="484.0" width="32" height="32" rx="6" fill="#B8860B"/>
+<text x="1121.0" y="504.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">λ</text>
+<text x="1146" y="496.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">CafeChatbotFunction</text>
+<text x="1146" y="513.0" font-size="10.5" fill="#555555" font-weight="normal" text-anchor="start">Lambda – Python 3.12</text>
+<rect x="1418" y="478" width="40" height="16" rx="8" fill="#B8860B"/>
+<text x="1438" y="490" font-size="9" fill="#ffffff" font-weight="bold" text-anchor="middle">NEW</text>
+<rect x="1096" y="542" width="368" height="56" rx="8" fill="#ffffff" stroke="#B8860B" stroke-width="2.2"/>
+<rect x="1105" y="554.0" width="32" height="32" rx="6" fill="#B8860B"/>
+<text x="1121.0" y="574.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">VPE</text>
+<text x="1146" y="566.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">Bedrock Runtime endpoint</text>
+<text x="1146" y="583.0" font-size="10.5" fill="#555555" font-weight="normal" text-anchor="start">VPC Interface Endpoint</text>
+<rect x="1418" y="548" width="40" height="16" rx="8" fill="#B8860B"/>
+<text x="1438" y="560" font-size="9" fill="#ffffff" font-weight="bold" text-anchor="middle">NEW</text>
+<rect x="1096" y="612" width="368" height="56" rx="8" fill="#ffffff" stroke="#B8860B" stroke-width="2.2"/>
+<rect x="1105" y="624.0" width="32" height="32" rx="6" fill="#B8860B"/>
+<text x="1121.0" y="644.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">VPE</text>
+<text x="1146" y="636.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">Secrets Manager endpoint</text>
+<text x="1146" y="653.0" font-size="10.5" fill="#555555" font-weight="normal" text-anchor="start">VPC Interface Endpoint</text>
+<rect x="1418" y="618" width="40" height="16" rx="8" fill="#B8860B"/>
+<text x="1438" y="630" font-size="9" fill="#ffffff" font-weight="bold" text-anchor="middle">NEW</text>
+<rect x="566" y="390" width="928" height="230" rx="10" fill="none" stroke="#546E7A" stroke-width="1.2" stroke-dasharray="4,4"/>
+<text x="576" y="636" font-size="10.5" fill="#546E7A" font-weight="normal" text-anchor="start">CafeDB Subnet Group (spans AZ1 + AZ2)</text>
+<rect x="1750" y="450" width="200" height="70" rx="8" fill="#ffffff" stroke="#B8860B" stroke-width="2.2"/>
+<rect x="1759" y="469.0" width="32" height="32" rx="6" fill="#B8860B"/>
+<text x="1775.0" y="489.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">AI</text>
+<text x="1800" y="481.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">Amazon Bedrock</text>
+<text x="1800" y="498.0" font-size="10.5" fill="#555555" font-weight="normal" text-anchor="start">Claude 3.5 Haiku</text>
+<rect x="1904" y="456" width="40" height="16" rx="8" fill="#B8860B"/>
+<text x="1924" y="468" font-size="9" fill="#ffffff" font-weight="bold" text-anchor="middle">NEW</text>
+<rect x="1750" y="570" width="200" height="70" rx="8" fill="#ffffff" stroke="#B8860B" stroke-width="2.2"/>
+<rect x="1759" y="589.0" width="32" height="32" rx="6" fill="#B8860B"/>
+<text x="1775.0" y="609.0" font-size="11" fill="#ffffff" font-weight="bold" text-anchor="middle">SM</text>
+<text x="1800" y="601.0" font-size="12.5" fill="#1b1b1b" font-weight="bold" text-anchor="start">Secrets Manager</text>
+<text x="1800" y="618.0" font-size="10.5" fill="#555555" font-weight="normal" text-anchor="start">cafe-rds-credentials</text>
+<rect x="1904" y="576" width="40" height="16" rx="8" fill="#B8860B"/>
+<text x="1924" y="588" font-size="9" fill="#ffffff" font-weight="bold" text-anchor="middle">NEW</text>
+<path d="M 291,244 L 291,760 L 300.0,760 L 300.0,562" fill="none" stroke="#37474F" stroke-width="2.2" marker-end="url(#arrow-grey)"/>
+<path d="M 425,416 L 425,470" fill="none" stroke="#37474F" stroke-width="2.2" marker-end="url(#arrow-grey)" stroke-dasharray="4,3"/>
+<line x1="196" y1="562" x2="196" y2="616" stroke="#37474F" stroke-width="2.2" marker-end="url(#arrow-grey)"/>
+<path d="M 474,534 L 568,534 L 568,498.0 L 596,498.0" fill="none" stroke="#37474F" stroke-width="2.2" marker-end="url(#arrow-grey)"/>
+<rect x="452.4" y="502" width="171.20000000000002" height="16" fill="#ffffff" opacity="0.92"/>
+<text x="538.0" y="514" font-size="11" fill="#37474F" font-weight="normal" text-anchor="middle">reads/writes menu &amp; orders</text>
+<path d="M 440,506 L 440,140 L 1265.0,140 L 1265.0,248" fill="none" stroke="#B8860B" stroke-width="2.2" marker-end="url(#arrow-gold)"/>
+<rect x="786.1" y="118" width="127.8" height="16" fill="#ffffff" opacity="0.92"/>
+<text x="850" y="130" font-size="11" fill="#B8860B" font-weight="normal" text-anchor="middle">chat widget fetch()</text>
+<path d="M 1265.0,248 L 1265.0,452 L 1280.0,452 L 1280.0,472" fill="none" stroke="#B8860B" stroke-width="2.2" marker-end="url(#arrow-gold)"/>
+<rect x="1281.4" y="348.0" width="47.2" height="16" fill="#ffffff" opacity="0.92"/>
+<text x="1305.0" y="360.0" font-size="11" fill="#B8860B" font-weight="normal" text-anchor="middle">invoke</text>
+<path d="M 1096,500.0 L 1030,500.0 L 1030,498.0 L 964,498.0" fill="none" stroke="#B8860B" stroke-width="2.2" marker-end="url(#arrow-gold)"/>
+<rect x="972.3" y="540" width="115.4" height="16" fill="#ffffff" opacity="0.92"/>
+<text x="1030" y="552" font-size="11" fill="#B8860B" font-weight="normal" text-anchor="middle">SELECT menu_items</text>
+<line x1="1280.0" y1="528" x2="1280.0" y2="542" stroke="#B8860B" stroke-width="2.2" marker-end="url(#arrow-gold)"/>
+<path d="M 1464,570.0 L 1750,485.0" fill="none" stroke="#B8860B" stroke-width="2.2" marker-end="url(#arrow-gold)" stroke-dasharray="4,3"/>
+<rect x="1564.8" y="548.0" width="84.4" height="16" fill="#ffffff" opacity="0.92"/>
+<text x="1607.0" y="560.0" font-size="11" fill="#B8860B" font-weight="normal" text-anchor="middle">Converse API</text>
+<path d="M 1106,528 L 1106,640.0 L 1096,640.0" fill="none" stroke="#B8860B" stroke-width="2.2" marker-end="url(#arrow-gold)"/>
+<path d="M 1464,640.0 L 1750,605.0" fill="none" stroke="#B8860B" stroke-width="2.2" marker-end="url(#arrow-gold)" stroke-dasharray="4,3"/>
+<rect x="1571.0" y="618.0" width="72.0" height="16" fill="#ffffff" opacity="0.92"/>
+<text x="1607.0" y="630.0" font-size="11" fill="#B8860B" font-weight="normal" text-anchor="middle">get secret</text>
+<rect x="36" y="1024" width="460" height="42" rx="10" fill="#fafafa" stroke="#999999" stroke-width="2"/>
+<text x="50" y="1042" font-size="11" fill="#1b1b1b" font-weight="bold" text-anchor="start">Legend</text>
+<rect x="50" y="1048" width="16" height="12" fill="none" stroke="#7A3FC2" stroke-width="2"/>
+<text x="72" y="1058" font-size="10" fill="#1b1b1b" font-weight="normal" text-anchor="start">Base lab resource</text>
+<rect x="246" y="1048" width="16" height="12" fill="#FFF8E8" stroke="#B8860B" stroke-width="2.2"/>
+<text x="268" y="1058" font-size="10" fill="#1b1b1b" font-weight="normal" text-anchor="start">Added for AI chatbot</text>
+</svg>
